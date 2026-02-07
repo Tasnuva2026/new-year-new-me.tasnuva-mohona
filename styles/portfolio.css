@@ -41,8 +41,8 @@ header {
   font-weight: bold;
   color: #151414;
   margin-bottom: 24px;
-  margin-left: 87px;
   max-width: 288px;
+  margin-left: 40px;
 }
 
 #about .container-info p {
@@ -51,17 +51,15 @@ header {
  line-height: 26px;
  color: #444343;
  margin-bottom: 16px;
- margin-left: 87px;
+ margin-left: 40px;
 }
 
 .about-container .container-li {
- max-width: 349px;
  height: 162px;
  color: #444343;
  margin-bottom: 8px;
  list-style: none;
- margin-left: 87px;
-
+ margin-left: 20px;
 }
 
 ul {
@@ -94,21 +92,15 @@ ul {
    margin-left: 0;  
 }
 
-.container-info {
-    max-width: 416px;
-    justify-items: left;
-}
-
 #plan {
   padding-top: 135px;
-  padding-left: 230px;
 }
+
 #plan .plan-container {
 width: 73%;
 max-width: 1140px;
 margin: 0 auto;
 text-align: center;
-padding: 135px 132px 230px;
 }
 
 #plan .plan-container .plan-box {
@@ -117,7 +109,6 @@ padding: 135px 132px 230px;
 }
 
 .plan-box .plan-card {
-  padding : 93px;
   border: 1px solid red;
   max-width: 214px;
 }
@@ -138,4 +129,28 @@ padding: 135px 132px 230px;
   font-weight: medium;
 }
 
+.image-container {
+ background-image: url(../images/gradient2.png), url(../images/watch.png);
+ background-repeat: no-repeat;
+ height: 300px;
+ }
+
+.image-container h5 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding-top: 60px;
+  margin-left: 64px;
+}
+
+.image-container .btn {
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  color:#F15B22;
+  font-size: 20px;
+  font-weight: semibold;
+  margin-left: 64px;
+}
  
